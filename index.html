@@ -14,27 +14,24 @@
 
   <script>
     (function () {
-      // Initialize random data for the demo
-      var now = moment().endOf('day').toDate();
-      var time_ago = moment().startOf('day').subtract(10, 'year').toDate();
       var example_data = [{
-  "date": "2018-09-12",
-  "total": 17164,
-  "details": [{
-    "name": "Senior Design Prelim Proposal",
-    "date": "2018-09-12 20:00:00",
-    "value": 9192
-  }, {
-    "name": "Akuna Capital Quant Coding Challenge",
-    "date": "2018-09-15 10:30:00",
-    "value": 6753
-  },
-  {
-    "name": "Senior Design Full Proposal",
-    "date": "2018-09-14 10:00:00",
-    "value": 1219
-  }]
-}];
+         "date": "2018-09-12",
+         "total": 4,
+         "details": [{
+          "name": "Senior Design Prelim Proposal",
+          "date": "2018-09-12 20:00:00",
+          "value": 1
+        }, {
+         "name ": "Akuna Capital Quant Coding Challenge",
+         "date": "2018-09-12 10:30:00",
+         "value": 2
+       },
+       {
+         "name": "Senior Design Full Proposal",
+         "date": "2018-09-12 10:00:00",
+         "value": 3
+       }]
+     }];
 
       // Set the div target id
       var div_id = 'calendar';
