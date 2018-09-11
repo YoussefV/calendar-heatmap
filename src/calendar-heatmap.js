@@ -176,7 +176,7 @@ var calendarHeatmap = {
     }
 
     // Define start and end of the dataset
-    var start = moment(calendarHeatmap.data[0].date).startOf('year');
+    var start = moment("2018-09-01");
     var end = moment(calendarHeatmap.data[calendarHeatmap.data.length - 1].date).endOf('year');
 
     // Define array of years and total values
